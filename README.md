@@ -52,18 +52,19 @@ Trained weights are included in the `weights` directory for replication or deplo
 
 ---
 
-## Installation  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/mohitmahajan095/UroVision.git
-   cd UroVision
+## SetUp  
+1. How to Run
+Open project directory and activate virtual environment:
+   ```powershell
+  cd "C:\Users\Acer\OneDrive\Desktop\MiniProject"
+  .\.venv\Scripts\Activate.ps1
    
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+2. Go to UroVision folder:
+    ```powershell
+    cd .\UroVision
 
 3. Run the Streamlit app:
-   ```bash
+   ```powershell
    streamlit run app.py
 
 ---
